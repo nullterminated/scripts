@@ -8,8 +8,8 @@ cargo install rustfmt
 carto install racer
 rustup component add rust-src
 rustup completions bash > rustup.bash-completion
-rm rustup.bash-completion
 sudo cp rustup.bash-completion /etc/bash_completion.d/
+rm rustup.bash-completion
 sudo add-apt-repository ppa:webupd8team/atom
 sudo apt update
 sudo apt install atom
